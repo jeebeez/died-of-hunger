@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+## Atlas Kitchen Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+### Live Demo
 
-### `yarn start`
+[Click here to see it live](https://diedofhunger.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+![project thumbnail](https://user-images.githubusercontent.com/67776449/165939383-ac2793cd-2a6c-4462-a4a6-85811334f1b1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/jeebeez/listicle.git
+cd [foldername]
+yarn install
+yarn start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `yarn eject`
+- Users can navigate through meal options.
+- The Navigation bar updates as you scroll through, using react-intesection-observer.
+- The threshold property of the intersection observer can be adjust according to your requirements.
+- The Navigation bar can also be used for scrolling to respective section, using refs.
+- The baseURL can be updated from the atlasAPI file.
+- The response from the API is sanitized using DOMPurify.
+- Unavailable items are darkened while items out-of-stock have a red border around them.
+- Unavailable/Out-of-stock items cannot be ordered.
+- Well tbh nothing can be ordered.We advise you to order real food if you are actually hungry.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## External Libraries
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [TailwindCSS](https://www.npmjs.com/package/tailwindcss)
+- [React intersection observer](https://www.npmjs.com/package/react-intersection-observer)
+- [Classnames](https://www.npmjs.com/package/classnames)
+- [@react-hook/window-size](https://www.npmjs.com/package/@react-hook/window-size)
+- [axios](https://www.npmjs.com/package/axios)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
