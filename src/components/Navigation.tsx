@@ -12,7 +12,7 @@ function Navigation({ sections, activeSection, handleClick }: NavProps) {
           id={section.label}
           onClick={() => handleClick(section.label)}
           className={cn(
-            "border-l-2 p-4 cursor-pointer text-xs md:text-basic lg:text-lg ",
+            "border-l-2 p-4 w-full cursor-pointer text-xs md:text-basic lg:text-lg ",
             activeSection === section.label
               ? "border-green-500 bg-slate-200 italic font-medium"
               : "border-gray-500"
