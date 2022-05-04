@@ -38,7 +38,7 @@ function Modal({
       <div className='rounded-lg w-10/12 p-4 sm:w-full relative flex items-center bg-white overflow-hidden shadow-2xl md:p-6 lg:p-8 md:inline-block md:max-w-2xl md:px-4 lg:max-w-4xl'>
         <button
           type='button'
-          className='absolute top-4 right-4 text-gray-400 hover:text-gray-500 sm:top-8 sm:right-6 md:top-6 md:right-6 lg:top-8 lg:right-8'
+          className='absolute z-10 top-4 right-4 text-gray-400 hover:text-gray-500 sm:top-8 sm:right-6 md:top-6 md:right-6 lg:top-8 lg:right-8'
           onClick={() => setShowModal(false)}
         >
           <span className='sr-only'>Close</span>X
